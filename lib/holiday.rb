@@ -27,7 +27,9 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  # iterate through holiday_hash and print items such that your readout resembles:
+  holiday_supplies.each do |season, holidays|
+
+  end
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
